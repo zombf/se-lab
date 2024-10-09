@@ -37,8 +37,9 @@ public class TorpedoStore {
     }
 
     boolean success = false;
-
     // simulate random overheating of the launcher bay which prevents firing
+
+    //trolotem a sort
     double r = generator.nextDouble();
 
     if (r >= FAILURE_RATE) {
